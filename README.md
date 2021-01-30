@@ -2,11 +2,11 @@
 
 The base images/frames are from PPaaS ([Party Parrot as a Service](https://github.com/francoislg/PPaaS)).
 
-## Quickstart
+## Development
 
-- `make init`
-- `pipenv shell`
-- `python -m pyrocco.cli`
+1. `make init`
+2. `pipenv shell`
+3. `python -m pyrocco.cli`
 
 ## References
 
