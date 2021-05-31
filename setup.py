@@ -19,7 +19,7 @@ def get_version(root, rel_path):
 setup(
     name="pyrocco",
     version=get_version(HERE, "pyrocco/__init__.py"),
-    description="",
+    description="A Python CLI to add the Party Parrot to a custom background image.",
     long_description=README,
     long_description_content_type="text/markdown",
     author="João Palmeiro",
