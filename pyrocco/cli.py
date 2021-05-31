@@ -23,7 +23,7 @@ def main():
         for frame in frames
     ]
 
-    background = Image.open("meval_logomark_no_margin.png")
+    background = Image.open("logo.png")
 
     thumbnail_size = (
         imgs[0].size[0],
@@ -34,7 +34,7 @@ def main():
         (max(thumbnail_size), max(thumbnail_size)), Image.LANCZOS
     )  # `thumbnail`: floor
 
-    offset = background.size[1] - imgs[0].size[1]
+    # offset = background.size[1] - imgs[0].size[1]
 
     to_gif = [layer_images(background, img) for img in imgs]
 
